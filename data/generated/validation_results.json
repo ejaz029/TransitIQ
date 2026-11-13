@@ -1,0 +1,52 @@
+[
+    {
+        "case_id": "ANOM-001",
+        "detected": [
+            {
+                "issue_type": "BUS_CAPACITY_EXCEEDED",
+                "decision": "REJECT"
+            }
+        ],
+        "passed": true
+    },
+    {
+        "case_id": "ANOM-002",
+        "detected": [
+            {
+                "issue_type": "INCOMPATIBLE_ROUTE",
+                "decision": "REJECT"
+            }
+        ],
+        "passed": true
+    },
+    {
+        "case_id": "ANOM-003",
+        "detected": [
+            {
+                "issue_type": "IMPOSSIBLE_TRAVEL_TIME",
+                "decision": "FLAG"
+            }
+        ],
+        "passed": true
+    },
+    {
+        "case_id": "ANOM-004",
+        "detected": [
+            {
+                "issue_type": "INVALID_GUARDIAN_CONTACT",
+                "decision": "BLOCK_NOTIFICATION"
+            }
+        ],
+        "passed": true
+    },
+    {
+        "case_id": "ANOM-005",
+        "detected": [
+            {
+                "issue_type": "UNAPPROVED_ADDRESS_EXPOSED",
+                "decision": "CRITICAL_ALERT"
+            }
+        ],
+        "passed": true
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "case_id": "ANOM-001",
+        "entity_type": "BUS",
+        "entity_id": "BUS-000001",
+        "facts": {
+            "capacity": 40,
+            "current_load": 19,
+            "proposed_load": 41
+        }
+    },
+    {
+        "case_id": "ANOM-002",
+        "entity_type": "ASSIGNMENT",
+        "entity_id": "STU-000050",
+        "facts": {
+            "student_accessibility_required": true,
+            "bus_id": "BUS-000001",
+            "bus_accessible": false
+        }
+    },
+    {
+        "case_id": "ANOM-003",
+        "entity_type": "ROUTE",
+        "entity_id": "ROUTE-2026-000001",
+        "facts": {
+            "previous_arrival": "07:05",
+            "next_arrival": "07:06",
+            "required_travel_minutes": 5
+        }
+    },
+    {
+        "case_id": "ANOM-004",
+        "entity_type": "GUARDIAN_CONTACT",
+        "entity_id": "GUA-000001-01",
+        "facts": {
+            "contact_valid": false,
+            "phone": "INVALID_SYNTHETIC_CONTACT"
+        }
+    },
+    {
+        "case_id": "ANOM-005",
+        "entity_type": "ADDRESS",
+        "entity_id": "STU-000001",
+        "facts": {
+            "address_approved": false,
+            "exposure_attempted": true
+        }
+    }
+]

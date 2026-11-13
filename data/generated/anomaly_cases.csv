@@ -1,0 +1,6 @@
+case_id,entity_type,entity_id,facts
+ANOM-001,BUS,BUS-000001,"{""capacity"": 40, ""current_load"": 19, ""proposed_load"": 41}"
+ANOM-002,ASSIGNMENT,STU-000050,"{""student_accessibility_required"": true, ""bus_id"": ""BUS-000001"", ""bus_accessible"": false}"
+ANOM-003,ROUTE,ROUTE-2026-000001,"{""previous_arrival"": ""07:05"", ""next_arrival"": ""07:06"", ""required_travel_minutes"": 5}"
+ANOM-004,GUARDIAN_CONTACT,GUA-000001-01,"{""contact_valid"": false, ""phone"": ""INVALID_SYNTHETIC_CONTACT""}"
+ANOM-005,ADDRESS,STU-000001,"{""address_approved"": false, ""exposure_attempted"": true}"

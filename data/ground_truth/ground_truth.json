@@ -1,0 +1,32 @@
+[
+    {
+        "case_id": "ANOM-001",
+        "issue_type": "BUS_CAPACITY_EXCEEDED",
+        "expected_decision": "REJECT",
+        "severity": "HIGH"
+    },
+    {
+        "case_id": "ANOM-002",
+        "issue_type": "INCOMPATIBLE_ROUTE",
+        "expected_decision": "REJECT",
+        "severity": "CRITICAL"
+    },
+    {
+        "case_id": "ANOM-003",
+        "issue_type": "IMPOSSIBLE_TRAVEL_TIME",
+        "expected_decision": "FLAG",
+        "severity": "HIGH"
+    },
+    {
+        "case_id": "ANOM-004",
+        "issue_type": "INVALID_GUARDIAN_CONTACT",
+        "expected_decision": "BLOCK_NOTIFICATION",
+        "severity": "HIGH"
+    },
+    {
+        "case_id": "ANOM-005",
+        "issue_type": "UNAPPROVED_ADDRESS_EXPOSED",
+        "expected_decision": "CRITICAL_ALERT",
+        "severity": "CRITICAL"
+    }
+]
